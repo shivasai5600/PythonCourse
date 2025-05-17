@@ -54,3 +54,13 @@ def addop(a,b):
 #============== EXAMPLE --3 =================================
 def menu():
     print("="*50)
+    print("A r i t h m e t i c === O p e r a t i o n s")
+    print("="*50)
+    print("\t1.Addtion Operaation")
+    print("\t2.Subtraction Operaation")
+    print("\t3.Multiplicaion Operaation")
+    print("\t4.Division Operaation")
+    print("\t5.Modulus Operaation")
+    print("\t6.Exponential Operaation")
+    print("\t7.Exit")
+    print("=" * 50)
