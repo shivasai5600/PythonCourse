@@ -79,9 +79,26 @@ Examples : from calculation import *
 # s()
 
 from Modules1 import *
-addop()
-subop()
-mulop()
-divop()
-modop()
-expop()
+import sys
+from Modules import menu
+while True:
+    menu()
+    ch=int(input("Enter your choice:"))
+    match(ch):
+        case 1:
+            addop()
+        case 2:
+            subop()
+        case 3:
+            mulop()
+        case 4:
+            divop()
+        case 5:
+            modop()
+        case 6:
+            expop()
+        case 7:
+            print("Thanks for using this program")
+            sys.exit()
+        case _:  # deafult case block
+            print("Your choice of selection is wrong, please try again")
